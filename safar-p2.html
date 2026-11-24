@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Safar Berkah P2 – A Journey in Loving Memory of Ajeng ♡</title>
+<style>
+:root{--ink:#1f2a2e;--muted:#5d6b70;--line:#e3e7e5;--bg:#f7f5f0;--card:#fff;--brand:#0f6e56;--brand-soft:#e1f5ee;--warn:#854f0b;--warn-soft:#faeeda;--rose:#993556}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+.wrap{max-width:720px;margin:0 auto;padding:20px 16px 48px}
+header h1{font-size:26px;margin:0;color:var(--brand)}
+header .memory{margin:2px 0 8px;font-family:Georgia,"Times New Roman",serif;font-style:italic;font-size:16px;color:var(--rose)}
+header .memory .heart{font-style:normal}
+header p.date{margin:0;color:var(--muted);font-size:14px}
+.route{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0;font-size:13px}
+.route span{background:var(--brand-soft);color:var(--brand);padding:3px 10px;border-radius:999px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:18px 0}
+.metric{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.metric small{display:block;color:var(--muted);font-size:12px}
+.metric b{font-size:20px}
+.metric.total{grid-column:1/-1;background:var(--brand);color:#fff;border:none}
+.metric.total small{color:#cfeee2}
+.note{font-size:12px;color:var(--muted);margin:-6px 0 18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:18px}
+.card h2{font-size:16px;margin:0 0 8px}
+.card ul{margin:0;padding-left:18px;font-size:14px}
+.card li{margin-bottom:4px}
+.nav{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+.nav button{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:7px 12px;border-radius:999px;font-size:13px;cursor:pointer}
+.nav button.on{background:var(--brand);color:#fff;border-color:var(--brand)}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--muted);margin:6px 0 14px}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:0}
+.day{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:16px}
+.day-h{display:flex;justify-content:space-between;align-items:baseline;gap:8px;border-bottom:2px solid var(--brand);padding-bottom:8px;margin-bottom:4px}
+.day-h h3{margin:0;font-size:17px}
+.day-h span{font-size:13px;color:var(--muted);text-align:right}
+.today{background:var(--warn-soft);color:var(--warn);font-size:11px;padding:2px 8px;border-radius:999px;margin-left:6px}
+.gal-wrap{margin:12px -16px 10px;padding:0 16px}
+.gal-title{font-size:13px;color:var(--muted);margin:0 0 8px}
+.gal{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;scrollbar-width:thin}
+.place{flex:0 0 78%;max-width:300px;scroll-snap-align:start;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.ph{position:relative;aspect-ratio:16/10;background:var(--brand-soft);display:flex;align-items:center;justify-content:center;color:var(--brand);font-size:14px;text-align:center;padding:8px}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ph .num{position:absolute;top:8px;left:8px;z-index:2;background:rgba(15,110,86,.92);color:#fff;font-size:12px;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.ph .time{position:absolute;bottom:8px;left:8px;z-index:2;background:rgba(0,0,0,.6);color:#fff;font-size:11px;padding:2px 8px;border-radius:999px}
+.pbody{padding:10px 12px 12px}
+.pbody b{display:block;font-size:15px}
+.pbody p{margin:4px 0 8px;font-size:13px;color:var(--muted)}
+.pbody a{font-size:12px;color:var(--brand);text-decoration:none;border:1px solid var(--brand);padding:3px 10px;border-radius:999px}
+body.all .gal-wrap{display:none}
+.row{display:grid;grid-template-columns:86px 12px minmax(0,1fr);gap:8px;padding:9px 0;border-bottom:1px solid var(--line)}
+.row:last-child{border-bottom:none}
+.t{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.row .dot{margin-top:6px}
+.what{font-size:14px}
+.cost{float:right;margin-left:8px;font-size:12px;background:var(--brand-soft);color:var(--brand);padding:1px 8px;border-radius:999px;white-space:nowrap}
+.opt{font-size:11px;color:var(--muted);border:1px solid var(--line);padding:0 6px;border-radius:999px;margin-left:4px}
+.jtag{font-size:11px;color:#633806;background:#faeeda;padding:0 6px;border-radius:999px;margin-left:4px}
+.tip{display:block;margin-top:4px;font-size:12px;color:var(--warn);background:var(--warn-soft);padding:4px 8px;border-radius:6px}
+.btn-print{display:inline-block;margin-top:14px;border:1px solid var(--brand);color:var(--brand);background:transparent;padding:8px 14px;border-radius:8px;font-size:14px;cursor:pointer}
+footer{font-size:12px;color:var(--muted);text-align:center;margin-top:24px}
+.hide{display:none}
+@media print{
+  @page{size:A4;margin:14mm}
+  body{background:#fff;font-size:11pt}
+  .wrap{max-width:none;padding:0}
+  .nav,.btn-print,.pbody a{display:none!important}
+  .hide{display:block!important}
+  body.all .gal-wrap,.gal-wrap{display:block!important;margin:10px 0}
+  .gal{display:grid;grid-template-columns:repeat(3,1fr);overflow:visible}
+  .place{max-width:none;break-inside:avoid}
+  .day,.card,.metric{border-color:#ccc;break-inside:auto}
+  .row{break-inside:avoid}
+  .day-h{break-after:avoid}
+  .metric.total{background:#fff;color:var(--ink);border:2px solid var(--brand)}
+  .metric.total small{color:var(--muted)}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body class="all">
+<div class="wrap">
+<header>
+  <h1>Safar Berkah P2</h1>
+  <p class="memory">A Journey in Loving Memory of Ajeng <span class="heart">♡</span></p>
+  <p class="date">Singapura & Malaysia · Jumat 22 – Kamis 28 Januari 2027</p>
+  <div class="route"><span>Bandung</span><span>Kertajati</span><span>Singapura</span><span>Johor Bahru</span><span>Kuala Lumpur</span><span>Genting</span><span>Jakarta</span></div>
+  <button class="btn-print" onclick="window.print()">Simpan PDF / cetak</button>
+</header>
+
+<div class="grid">
+  <div class="metric total"><small>Estimasi biaya per orang</small><b>Rp5.178.032</b></div>
+  <div class="metric"><small>Bayar dalam Rupiah (tiket, inap, transport)</small><b>Rp3.254.936</b></div>
+  <div class="metric"><small>Siapkan Ringgit</small><b>RM246</b><br><small>≈ Rp1.089.156</small></div>
+  <div class="metric"><small>Siapkan Dolar Singapura</small><b>S$59</b><br><small>≈ Rp833.940</small></div>
+  <div class="metric"><small>Menginap</small><b>4 malam</b><br><small>1 hostel SG, 3 apartemen KL, 1 bus malam</small></div>
+</div>
+<p class="note">Estimasi sesuai rencana. Belanja pribadi, barang jastip, oleh-oleh, dan makan di luar daftar belum termasuk.</p>
+
+<div class="card">
+  <h2>Sebelum berangkat</h2>
+  <ul>
+    <li>Paspor berlaku minimal 6 bulan dari tanggal berangkat.</li>
+    <li>Isi SG Arrival Card dan Malaysia Digital Arrival Card (MDAC) online maksimal 3 hari sebelum masuk. Cek ulang aturan terbaru.</li>
+    <li>Pasang eSIM Digitravel sebelum berangkat.</li>
+    <li>Bagasi pulang (Citilink) 20 kg. Sisakan ruang untuk oleh-oleh dan barang jastip.</li>
+    <li>Colokan listrik di SG dan MY tipe G (3 pin). Bawa adaptor.</li>
+    <li>Batu Caves dan masjid: pakaian menutup bahu dan lutut.</li>
+    <li>Kumpul Jumat 22 Jan, travel Bandung–Kertajati jam 21.00 WIB.</li>
+  </ul>
+</div>
+
+<nav class="nav" id="nav"></nav>
+<div class="legend" id="legend"></div>
+<main id="days"></main>
+
+<footer>Safar Berkah P2 · in loving memory of Ajeng ♡<br>jadwal bisa menyesuaikan kondisi di lapangan · foto: Wikipedia / Wikimedia Commons</footer>
+</div>
+
+<script>
+const CAT={t:["Perjalanan","#7F77DD"],s:["Ibadah","#1D9E75"],m:["Makan","#D85A30"],e:["Jelajah","#378ADD"],b:["Belanja","#D4537E"],j:["Jastip","#BA7517"],r:["Istirahat","#888780"]};
+const DAYS=[
+{date:"2027-01-22",label:"Jumat, 22 Jan",city:"Bandung → Kertajati",
+places:[
+["Kertajati International Airport","Bandara Kertajati (BIJB)","23.00","Titik kumpul dan bermalam sebelum terbang pagi.","Bandara Internasional Kertajati"]],
+items:[
+["21.00","Travel Bandung ke Bandara Kertajati (BIJB)","t","Rp100rb"],
+["23.00","Tiba di BIJB, istirahat di bandara","r"]]},
+{date:"2027-01-23",label:"Sabtu, 23 Jan",city:"Singapura",
+places:[
+["Jewel Changi Airport","Jewel Changi","12.15","Air terjun indoor tertinggi di dunia, langsung dari terminal.","Jewel Changi Airport"],
+["Clarke Quay","Clarke Quay","14.00","Lokasi hostel, di tepi Singapore River.","City Backpackers Clarke Quay"],
+["Merlion Park","Merlion Park","16.55","Patung ikon Singapura dengan latar Marina Bay.","Merlion Park Singapore"],
+["Gardens by the Bay","Supertree Grove","19.00","Pohon raksasa yang menyala saat Garden Rhapsody.","Supertree Grove"],
+["Marina Bay Sands","Marina Bay Sands","20.15","Lokasi pertunjukan Spectra jam 21.00.","Marina Bay Sands Event Plaza"],
+["Sultan Mosque","Masjid Sultan","22.30","Masjid bersejarah di jantung Kampong Glam.","Masjid Sultan Singapore"]],
+items:[
+["04.30","Check-in bagasi","t"],
+["06.30","Boarding · subuh dan sarapan di bandara","s"],
+["07.35–10.35","Terbang Kertajati → Singapura (Scoot)","t","Rp516rb"],
+["10.35–11.15","Imigrasi Changi","t"],
+["11.15–12.15","Makan siang di Staff Canteen T1","m","S$7"],
+["12.15–13.00","Jewel Changi Airport","e"],
+["13.00–13.15","Beli Singapore Tourist Pass (2 hari)","t","S$24"],
+["13.15–14.00","MRT ke hotel (Clarke Quay)","t"],
+["14.00","Check-in City Backpackers Clarke Quay","r","Rp326rb"],
+["14.00–16.40","Istirahat, mandi, makan, shalat dzuhur–ashar","s"],
+["16.40–16.55","Jalan kaki ke Boat Quay (±10 menit dari hotel)","t"],
+["16.55–18.15","Boat Quay, Merlion Park, Jubilee Bridge, Esplanade waterfront · es krim uncle","e","S$3"],
+["18.15–19.00","Bus dan jalan kaki ke Gardens by the Bay – Bay East","t"],
+["19.00–19.45","Supertree Grove","e"],
+["19.45–20.00","Garden Rhapsody Show","e"],
+["20.15–20.45","Jalan lewat jembatan ke Marina Bay Sands","t"],
+["21.00–21.15","Spectra – pertunjukan cahaya dan air","e"],
+["21.20–21.40","MRT ke Bugis","t"],
+["21.40–22.30","Makan malam di Zam Zam","m","S$10"],
+["22.30–23.00","Shalat di Masjid Sultan · jalan-jalan Kampong Glam","s"],
+["23.00","MRT kembali ke hotel (Clarke Quay) · packing · beli bekal sarapan di 7-Eleven","t","S$5","Cek jam kereta terakhir dari Bugis supaya tidak tertinggal."]]},
+{date:"2027-01-24",label:"Minggu, 24 Jan",city:"Singapura → Johor Bahru",
+places:[
+["Fort Canning Park","Fort Canning Park","06.45","Taman bukit bersejarah, sarapan pagi di sini.","Fort Canning Park"],
+["Chinatown, Singapore","Chinatown","08.00","Ruko warna-warni dan Ann Siang Hill.","Chinatown Singapore"],
+["Mustafa Centre","Mustafa Centre","12.30","Pusat oleh-oleh 24 jam di Little India.","Mustafa Centre"],
+["Haji Lane","Haji Lane","13.30","Gang mural untuk foto-foto, dekat Masjid Sultan.","Haji Lane Singapore"],
+["Woodlands Checkpoint","Woodlands Checkpoint","18.00","Imigrasi darat Singapura ke Johor Bahru.","Woodlands Checkpoint"]],
+items:[
+["05.30–06.30","Subuh, siap ke Fort Canning","s"],
+["06.30–06.45","Jalan kaki ke Fort Canning (dekat hotel)","t"],
+["06.45–08.00","Fort Canning Park · sarapan di taman","e"],
+["08.00–10.00","Chinatown dan Ann Siang Hill","e"],
+["10.00–11.30","Kembali ke hotel, packing","r"],
+["11.30","Checkout, titip koper di hotel","r"],
+["11.30–12.30","Makan siang chicken rice Sam Leong St (alternatif: Bedok)","m","S$7"],
+["12.30–13.30","Oleh-oleh di Mustafa Centre · Little India","b"],
+["13.30–16.30","Shalat dzuhur–ashar di Masjid Al-Falah, lalu pilih sesuai waktu: Orchard Road (mal, toko buku), National Library, Bugis Street, Haji Lane, Masjid Sultan · es krim uncle","s","S$3","Pilih 2–3 tempat saja supaya tidak terlambat ke Woodlands."],
+["16.30–17.00","Kembali ke hotel, ambil koper","r"],
+["17.00–18.00","MRT dan bus ke Woodlands Checkpoint","t"],
+["18.00–19.30","Imigrasi Singapura dan Malaysia","t"],
+["19.30–20.30","Makan malam di JB Sentral atau Larkin Sentral","m","RM15"],
+["20.30–00.00","Shalat maghrib–isya · waktu bebas","s"],
+["00.00–04.30","Bus malam ke TBS Kuala Lumpur","t","Rp235rb"]]},
+{date:"2027-01-25",label:"Senin, 25 Jan",city:"Kuala Lumpur",
+places:[
+["Merdeka Square, Kuala Lumpur","Dataran Merdeka","08.30","Lapangan bersejarah tempat kemerdekaan Malaysia diproklamasikan.","Dataran Merdeka"],
+["Sultan Abdul Samad Building","Gedung Sultan Abdul Samad","09.00","Bangunan bergaya Moor dengan menara jam ikonik.","Sultan Abdul Samad Building"],
+["Central Market, Kuala Lumpur","Pasar Seni","10.30","Pusat kerajinan dan oleh-oleh. Cek harga jastip.","Pasar Seni Kuala Lumpur"],
+["Bukit Bintang","Bukit Bintang","16.00","Kawasan belanja utama KL, termasuk Lot 10.","Lot 10 Bukit Bintang"],
+["Petronas Towers","Menara Kembar Petronas","20.00","Paling cantik dilihat malam hari dari taman KLCC.","Petronas Twin Towers"]],
+items:[
+["04.30","Tiba di lobi utama TBS","t"],
+["05.50–07.00","Subuh, istirahat","s"],
+["07.00–08.30","Ke Apartemen VIDA Bukit Ceylon, titip bagasi (3 malam)","r","Rp565rb"],
+["08.30","GoKL ke Dataran Merdeka","t","RM1"],
+["","Dataran Merdeka dan Gedung Sultan Abdul Samad","e"],
+["","Brunch di Oriental Kopi BSAS","m","RM35"],
+["","Pasar Seni · cek harga barang jastip","j"],
+["","Petaling Street, Masjid Negara, Perdana Botanical Gardens","e","","opsional"],
+["13.00–13.30","GoKL kembali ke apartemen","t","RM1"],
+["13.30–16.00","Istirahat, bersih-bersih, shalat · makan siang Moon Chicken (bungkus)","s","RM10"],
+["16.00","Bukit Bintang · cek harga Beryl's di Lot 10","j"],
+["","Makan malam Nasi Kandar Pelita Ampang (GoKL)","m","RM20"],
+["","Menara Kembar Petronas, Suria KLCC (ada Kinokuniya), Saloma Bridge","e"],
+["22.30","GoKL kembali ke apartemen","t","RM2"]]},
+{date:"2027-01-26",label:"Selasa, 26 Jan",city:"Genting Highlands",
+places:[
+["Genting Skyway","Genting Skyway","09.30","Kereta gantung menembus hutan menuju puncak.","Awana Skyway"],
+["Genting Highlands","Genting Highlands","10.00","Kawasan pegunungan sejuk dan Premium Outlet.","Genting Highlands Premium Outlets"],
+["Central Market, Kuala Lumpur","Pasar Seni","14.30","Belanja Beryl's dan oleh-oleh untuk jastip.","Pasar Seni Kuala Lumpur"],
+["Tun Razak Exchange","The Exchange TRX","17.00","Mal dan taman atap terbaru di KL (opsional).","The Exchange TRX"],
+["National Mosque of Malaysia","Masjid Negara","17.00","Masjid nasional dengan atap payung bintang (opsional).","Masjid Negara"]],
+items:[
+["05.00–07.30","Subuh, siap-siap, sarapan","s"],
+["07.30–08.00","Ke KL Sentral","t"],
+["08.30–09.30","Bus ke Genting Highlands (pulang-pergi)","t","RM20"],
+["09.30–12.30","Genting Skyway (PP) · Genting Premium Outlet","e","RM22"],
+["","Makan siang di Genting atau KL Sentral","m","RM25"],
+["13.00–14.00","Bus kembali ke KL Sentral","t"],
+["14.00–14.30","MRT ke Pasar Seni","t","RM3"],
+["14.30–16.30","Shalat dzuhur–ashar (cek situasi, bisa di KL Sentral)","s"],
+["","Belanja di Pasar Seni · belanja Beryl's untuk jastip","j"],
+["16.30–17.00","Grab ke apartemen, simpan belanjaan","t","RM3"],
+["17.00–22.30","Belanja jastip di Haniffa Department Store","j"],
+["","The Exchange TRX, kafe hopping","b","","opsional"],
+["","Shalat di Masjid Negara","s","","opsional"],
+["","Makan malam mala atau kari di Pudu","m","RM20"],
+["","Kembali ke apartemen, simpan belanjaan","r"]]},
+{date:"2027-01-27",label:"Rabu, 27 Jan",city:"Batu Caves & Kuala Lumpur",
+places:[
+["Batu Caves","Batu Caves","09.30","Gua kapur dengan tangga warna-warni dan patung emas raksasa.","Batu Caves"],
+["Petaling Street","Petaling Street","11.45","Pasar Chinatown KL untuk jajan dan oleh-oleh.","Petaling Street Market"],
+["KL Sentral","KL Sentral","08.30","Stasiun pusat, titik berangkat KTM ke Batu Caves.","KL Sentral"]],
+items:[
+["06.00–08.00","Shalat, siap-siap","s"],
+["08.00–08.30","Sarapan sekitar apartemen","m","RM10"],
+["08.30–08.45","Ke KL Sentral","t"],
+["08.45–09.30","KTM ke Batu Caves (pulang-pergi)","t","RM6"],
+["09.30–11.00","Jelajah Batu Caves","e","","Pakaian menutup bahu dan lutut."],
+["11.00–12.00","Kembali ke KL Sentral, lanjut ke Petaling Street","t"],
+["12.00–13.00","Makan siang","m","RM10"],
+["13.00–15.00","REX KL · Petaling Street, oleh-oleh dan jajan","b"],
+["15.00–15.30","Grab ke apartemen, shalat","s","RM3"],
+["15.30–22.30","Waktu bebas · makan malam","m","RM20"],
+["22.30","Kembali ke apartemen, packing","r"]]},
+{date:"2027-01-28",label:"Kamis, 28 Jan",city:"Kuala Lumpur → Bandung",
+places:[
+["Mitsui Outlet Park KLIA Sepang","Mitsui Outlet Park","13.00","Outlet belanja dekat bandara, terakhir sebelum pulang.","Mitsui Outlet Park KLIA Sepang"],
+["Kuala Lumpur International Airport","KLIA Terminal 1","15.00","Check-in Citilink ke Jakarta.","KLIA Terminal 1"]],
+items:[
+["06.00–08.00","Shalat, pastikan packing beres","s"],
+["08.00–12.00","Waktu bebas sekitar apartemen","r"],
+["12.00","Checkout","r"],
+["12.00–13.00","Bolt (2 mobil) ke Mitsui Outlet Park KLIA","t","RM20"],
+["13.00–15.00","Mitsui Outlet Park · shalat dzuhur–ashar","b"],
+["15.00–15.30","Ke KLIA Terminal 1","t"],
+["16.00–17.30","Check-in, drop bagasi, imigrasi","t"],
+["17.30–20.00","Shalat maghrib–isya · boarding","s"],
+["20.10–21.40","Terbang KL → Jakarta Soekarno-Hatta T3 (Citilink)","t","Rp1,28jt"],
+["21.40–23.00","Ambil bagasi, imigrasi, beli tiket shuttle","t"],
+["23.00–01.00","Shuttle ke Bandung","t","Rp150rb"]]}
+];
+
+document.getElementById("legend").innerHTML=Object.values(CAT).map(c=>`<span><span class="dot" style="background:${c[1]}"></span>${c[0]}</span>`).join("");
+
+const now=new Date();
+const pad=n=>String(n).padStart(2,"0");
+const todayStr=`${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())}`;
+const todayIdx=DAYS.findIndex(d=>d.date===todayStr);
+const maps=q=>"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(q);
+
+document.getElementById("days").innerHTML=DAYS.map((d,i)=>`
+<section class="day" data-i="${i}">
+  <div class="day-h"><h3>Hari ${i} · ${d.label}${i===todayIdx?'<span class="today">hari ini</span>':''}</h3><span>${d.city}</span></div>
+  <div class="gal-wrap">
+    <p class="gal-title">Tempat yang dikunjungi · geser untuk melihat</p>
+    <div class="gal">
+      ${d.places.map(([wiki,name,time,cap,q],n)=>`
+      <div class="place">
+        <div class="ph" data-wiki="${wiki}"><span class="num">${n+1}</span><span class="time">${time}</span>${name}</div>
+        <div class="pbody"><b>${name}</b><p>${cap}</p><a href="${maps(q)}" target="_blank" rel="noopener">Buka di Maps</a></div>
+      </div>`).join("")}
+    </div>
+  </div>
+  ${d.items.map(([t,w,c,cost,extra])=>{
+    const isOpt=extra==="opsional";
+    const tip=extra&&!isOpt?`<span class="tip">${extra}</span>`:"";
+    const jt=c==="j"?'<span class="jtag">jastip</span>':"";
+    return `<div class="row"><div class="t">${t}</div><span class="dot" style="background:${CAT[c][1]}"></span><div class="what">${cost?`<span class="cost">${cost}</span>`:""}${w}${jt}${isOpt?'<span class="opt">opsional</span>':""}${tip}</div></div>`;
+  }).join("")}
+</section>`).join("");
+
+const cache={};
+function loadImg(el){
+  const title=el.dataset.wiki;
+  if(el.dataset.done)return;
+  el.dataset.done=1;
+  const p=cache[title]||(cache[title]=fetch("https://en.wikipedia.org/api/rest_v1/page/summary/"+encodeURIComponent(title.replace(/ /g,"_"))).then(r=>r.ok?r.json():null).catch(()=>null));
+  p.then(data=>{
+    if(!data)return;
+    const src=(data.thumbnail&&data.thumbnail.source)||(data.originalimage&&data.originalimage.source);
+    if(!src)return;
+    const img=new Image();
+    img.alt=title;
+    img.decoding="async";
+    img.onerror=()=>img.remove();
+    img.src=src;
+    el.prepend(img);
+  });
+}
+function loadDay(i){document.querySelectorAll(`.day[data-i="${i}"] .ph`).forEach(loadImg);}
+function loadAll(){document.querySelectorAll(".ph").forEach(loadImg);}
+
+const nav=document.getElementById("nav");
+const labels=["Semua",...DAYS.map((d,i)=>`Hari ${i} · ${d.label.split(",")[0]}`)];
+nav.innerHTML=labels.map((l,i)=>`<button data-k="${i-1}">${l}</button>`).join("");
+function show(k){
+  document.body.classList.toggle("all",k<0);
+  nav.querySelectorAll("button").forEach(b=>b.classList.toggle("on",+b.dataset.k===k));
+  document.querySelectorAll(".day").forEach(s=>s.classList.toggle("hide",k>=0&&+s.dataset.i!==k));
+  if(k>=0){loadDay(k);window.scrollTo({top:document.getElementById("nav").offsetTop-4,behavior:"smooth"});}
+}
+nav.addEventListener("click",e=>{const b=e.target.closest("button");if(b)show(+b.dataset.k);});
+show(todayIdx>=0?todayIdx:-1);
+setTimeout(loadAll,1500);
+window.addEventListener("beforeprint",loadAll);
+</script>
+</body>
+</html>
